@@ -108,6 +108,8 @@ main {
 }
 
 .black-bg {
+    width: 100%;
+    padding: 20px;
     background-color: black;
 }
 
