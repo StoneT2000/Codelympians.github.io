@@ -8,6 +8,11 @@ html {
     text-size-adjust: 100%;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 body {
     margin: 0;
 }
@@ -75,7 +80,6 @@ span.nowrap {
 
 .nav-content a {
     color: white;
-    text-decoration: none;
 }
 
 .navItem {
@@ -282,29 +286,24 @@ footer ol {
     display: inline-block;
 }
 
-.language {
+.site-map {
     float: none;
     display: block;
     margin-top: 6px;
 }
 
-.language a {
+.site-map a {
     color: rgb(150, 150, 150);
     transition: color 240ms ease 40ms;
 }
 
-.language a:hover {
+.site-map a:hover {
     color: rgb(82, 180, 219);
 }
 
 @media ( min-width: 414px) {
     br.plus {
         display: none;
-    }
-    html[lang=zh-cmn-Hans-CN] footer .language {
-        float: right;
-        display: inline-block;
-        margin-top: 0;
     }
 }
 
@@ -315,7 +314,7 @@ footer ol {
 }
 
 @media ( min-width: 507px) {
-    .language {
+    .site-map {
         float: right;
         display: inline-block;
         margin-top: 0;
