@@ -102,13 +102,13 @@ span.nowrap {
     opacity: 0.67;
 }
 
-.black-bg {
-    background-color: black;
-}
-
 main {
     padding: 20px;
     background-color: #202020;
+}
+
+.black-bg {
+    background-color: black;
 }
 
 /* ********************************************* */
