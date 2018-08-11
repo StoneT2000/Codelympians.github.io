@@ -125,7 +125,8 @@ main {
 
 .black-bg {
     width: 100%;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: black;
 }
 
