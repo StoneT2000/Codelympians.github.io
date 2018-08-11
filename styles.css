@@ -94,12 +94,27 @@ span.nowrap {
     height: 24px;
 }
 
-.navMenu {
-    float:right;
-}
-
 .navItem:hover {
     opacity: 0.67;
+}
+
+.navMenu {
+    float: right;
+    display: none;
+}
+
+.navMenuButton {
+    float: right;
+}
+
+@media (min-width: 768px) {
+    .navMenu {
+        display: inline-block;
+    }
+
+    .navMenuButton {
+        display: none;
+    }
 }
 
 main {
