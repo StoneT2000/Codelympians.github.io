@@ -90,6 +90,10 @@ span.nowrap {
     float: left;
 }
 
+.navItem a img {
+    height: 30px;
+}
+
 .navMenu {
     float:right;
 }
